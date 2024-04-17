@@ -1,0 +1,75 @@
+body {
+  font-family: "Georgia", sans-serif;
+  font-size: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cccccc;
+  /* Set the background to a cool tile */
+  background: url("/img/5012.png");
+}
+
+#site-header,
+footer {
+  text-align: center;
+}
+
+#site-header {
+  border-bottom: 1px solid #b894ab;
+  padding-bottom: 5px;
+}
+
+footer {
+    border-top: 1px solid #b894ab;
+    padding-top: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Set the font to a nice sans-serif */
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+span.highlight {
+  color: #010101;
+  font-weight: 500;
+}
+
+a {
+  color: #ff69b4;
+}
+
+a:hover {
+  color: #d450a5;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 24px;
+  }
+
+  .section-header h2 {
+    font-size: 28px;
+  }
+}
+
+#content {
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:2em;
+    padding-bottom:2em;
+  }

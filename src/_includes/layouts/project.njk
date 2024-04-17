@@ -1,0 +1,12 @@
+---
+layout: layouts/default.njk
+---
+<h2>{{ title }}</h2>
+{{ content | safe }}
+{% if link and not source %}
+    <a href="{{link}}">{{link}}</a>
+{% elif source and not link %}
+    <a href="{{source}}">source</a>
+{% elif link and source %}
+    <a href="{{link}}">{{link}}</a> · <a href="{{source}}">source</a>
+{% endif %}
