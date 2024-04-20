@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bunx @11ty/eleventy",
+    "serve": "bunx @11ty/eleventy --serve",
+    "dev": "bunx @11ty/eleventy --serve --watch"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"

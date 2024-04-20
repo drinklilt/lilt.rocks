@@ -13,7 +13,7 @@ pagination:
     {% for project in projects %}
         <li>
             <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
-            <p>{{ project.data.description }} · <a href="{{ project.data.source}}" target="_blank">source</a></p>
+            <p>{{ project.data.description }} · <a href="{{ project.data.source}}">source</a></p>
         </li>
     {% endfor %}
 </ul>

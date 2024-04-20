@@ -6,11 +6,11 @@
     <title>{{ title if title else site.title }}</title>
     <link rel="stylesheet" href="/css/bundle.css">
 </head>
-<body>
+<body style="background-color: #252525;">
     {% include "components/header.njk" %}
-    <div id="content">
+    <main id="content">
         {{ content | safe }}
-    </div>
+    </main>
     {% include "components/footer.njk" %}
 </body>
 </html>
