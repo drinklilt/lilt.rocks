@@ -33,7 +33,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: a8a36534044486b6a07ecdf1a69272e3
-          projectName: themorningstardotdev
+          projectName: liltdotrocks
           directory: www
 
 
