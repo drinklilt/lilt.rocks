@@ -8,12 +8,12 @@ pagination:
     size: 20
 ---
 <h2>Projects</h2>
-<p>I'm working on expanding my portfolio; currently I'm in a full-time job, so having the time + energy to work on personal projects is at a premium. Hopefully more projects will come soon.</p>
+<p>I'm working on expanding my portfolio; currently I'm in a full-time job, so having the time & energy to work on personal projects is at a premium. Hopefully more projects will come soon.</p>
 <ul>
     {% for project in projects %}
         <li>
             <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
-            <p>{{ project.data.description }} · <a href="{{ project.data.source}}">source</a></p>
+            <p>{{ project.data.description }} {%if source %}· <a href="{{ project.data.source}}">source</a>{%endif%}</p>
         </li>
     {% endfor %}
 </ul>
